@@ -14,4 +14,8 @@ TypeScript is a scripting language developed by Microsoft based on the ECMAScrip
 
 Visual Studio Code
 Visual Studio Code (VS Code for short) is a free source code editor from Microsoft. Visual Studio Code is cross-platform for operating systems
+
+Our next job was to create an GibHub account and to create a repository for ourselve and our Team. In the Team repository the task was to list the names of the team members and the team name. We chouse the team name caffeine++ as a parody for c++. 
+
+After that we should clone the note we had to make in our own repository and transfer it to a driferent place on our computer to chnage something and the to merge the old note with the new one.
 }
