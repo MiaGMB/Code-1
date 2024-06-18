@@ -38,7 +38,7 @@ Atribute example: < p classe="text" > place holder text < /p >
 
 
 
-
+At noon our next tasks were to create a GitHub Page. Then to create a branch story with our team and then to create a small Portfolio as a HTML page for our selfe. ther we can upload for example artworks we did.
 
 
 
