@@ -24,8 +24,13 @@ HTML has >>Tags<< taht let you changes the optics of your Text, such as making t
 So there are Tags to create headings, paragraphs, bolded words, italic words and more.
 A tag for example loocks like this: < p >  < /p >  <-- The firt is the opening tah an the second the closing tah. between these you wirte the text you want to loock ore be a certin way.
 
-<head> </head>
-
+< !doctype HTML > = HTML5  
+< !doctype >  <-- specifies wich HTML type were using
+ < html > < /html >
+   < head > < /head >  <-- important information about the web page 
+   < title > < /title >  <-- Name of the web page
+   < body > < /body >  <-- all the content of the page is in here. Ther can only be one < body >
+   
 ## HTML atributes
 Atributes are placed into the opening tag an range from style to ids to classes. 
 They take values, wich contays more information about the element and help you do things such ach styling an manipulation.
