@@ -25,11 +25,11 @@ So there are Tags to create headings, paragraphs, bolded words, italic words and
 A tag for example loocks like this: < p >  < /p >  <-- The firt is the opening tah an the second the closing tah. between these you wirte the text you want to loock ore be a certin way.
 
 < !doctype HTML > = HTML5  
-< !doctype >  <-- specifies wich HTML type were using
+< !doctype >  <-- specifies wich HTML type were using.
 < html > < /html >
-< head > < /head >  <-- important information about the web page 
-< title > < /title >  <-- Name of the web page
-< body > < /body >  <-- all the content of the page is in here. Ther can only be one < body >
+< head > < /head >  <-- important information about the web page. 
+< title > < /title >  <-- Name of the web page.
+< body > < /body >  <-- all the content of the page is in here. Ther can only be one < body >.
    
 ## HTML atributes
 Atributes are placed into the opening tag an range from style to ids to classes. 
