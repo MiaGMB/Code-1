@@ -4,6 +4,8 @@ Today we learn about the basics of HTML.
 
 our tasks for today are to finde out the meaning of HTML, create a simple HTML structure, search for drifferent tags an expiriment with them.
 
+At noon our next tasks were to create a GitHub Page. Then to create a branch story with our team and then to create a small Portfolio as a HTML page for our selfe. ther we can upload for example artworks we did.
+
 ## The meaning of HTML:
 HTML, or Hypertext Markup Language, is a markup language for the web that defines the structure of web pages.
 It is one of the most basic building blocks of every website.
@@ -35,10 +37,6 @@ A tag for example loocks like this: < p >  < /p >  <-- The firt is the opening t
 Atributes are placed into the opening tag an range from style to ids to classes. 
 They take values, wich contays more information about the element and help you do things such ach styling an manipulation.
 Atribute example: < p classe="text" > place holder text < /p >
-
-
-
-At noon our next tasks were to create a GitHub Page. Then to create a branch story with our team and then to create a small Portfolio as a HTML page for our selfe. ther we can upload for example artworks we did.
 
 
 
