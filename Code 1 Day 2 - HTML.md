@@ -26,10 +26,10 @@ A tag for example loocks like this: < p >  < /p >  <-- The firt is the opening t
 
 < !doctype HTML > = HTML5  
 < !doctype >  <-- specifies wich HTML type were using
- < html > < /html >
-   < head > < /head >  <-- important information about the web page 
-   < title > < /title >  <-- Name of the web page
-   < body > < /body >  <-- all the content of the page is in here. Ther can only be one < body >
+< html > < /html >
+< head > < /head >  <-- important information about the web page 
+< title > < /title >  <-- Name of the web page
+< body > < /body >  <-- all the content of the page is in here. Ther can only be one < body >
    
 ## HTML atributes
 Atributes are placed into the opening tag an range from style to ids to classes. 
