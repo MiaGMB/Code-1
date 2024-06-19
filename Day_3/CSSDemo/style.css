@@ -1,5 +1,7 @@
-body{ color:cornflowerblue}
+body{ color:cornflowerblue;}
 
 text{ color: darkblue;}
 
-div{ background-color:lightskyblue}
+div{ 
+    display: block;
+    background-color:hotpink; }
