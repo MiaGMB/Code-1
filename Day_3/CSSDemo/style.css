@@ -1,6 +1,6 @@
 body{ color: cornflowerblue;}
 
-text{ color: darkblue;}
+h2{ color: darkblue;}
 
-div{ display: block;
+p{ display: block;
     background-color: hotpink; }
