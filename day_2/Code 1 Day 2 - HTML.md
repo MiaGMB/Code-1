@@ -38,5 +38,10 @@ Atributes are placed into the opening tag an range from style to ids to classes.
 They take values, wich contays more information about the element and help you do things such ach styling an manipulation.
 Atribute example: < p classe="text" > place holder text < /p >
 
+##Differences Syntax and Semantics
+syntax: Syntax is about the structure or the grammar of the language. It answers the question: how do I construct a valid sentence?
+Semantics: Semantics is about the meaning of the sentence. It answers the questions: is this sentence valid? 
+
+
 
 
