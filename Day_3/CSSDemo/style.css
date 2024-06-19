@@ -2,5 +2,11 @@ body{ color: cornflowerblue;}
 
 h2{ color: darkblue;}
 
-p{ display: block;
+p{ color: black;
+    display: block;
     background-color: hotpink; }
+
+h4{ font-family: monospace;
+color: black;
+display: inline-block;
+background-color: bisque;}
