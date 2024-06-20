@@ -12,6 +12,6 @@ NaN bedeutet “Not a Number”, das Ergebnis ist also keine Zahl. Das liegt dar
 JavaScript: Is used for making Web Pages or game more interaktive. It goes well with HTML and CSS.
 TypeScript: It can do all the thing Java can do, plus some more things. It help get type safety, has interfaces, type aliases, abstract classes and more.
 
-differences between them: Java is more dynamic, while type is static, but since it is a upgrated version of java it can allow static and dynamic typing, wich makes its code saver. TypeScript suportes prototiping wich java doesn't. Type is greate for Large Projects and Java more for smaller mor simple projects. Java is a bit easyer to learn than TypeScript.
+differences between them: Java is more dynamic, while type is static, but since it is a upgrated version of java it can allow static and dynamic typing, wich makes its code saver. TypeScript suportes prototiping wich java doesn't. Type is greate for Large Projects and Java more for smaller mor simple projects. JavaScript is a bit easyer to learn than TypeScript.
 
 advantages:  TypeScript identifies complication erroer during development. TypeScript offers static or stron typing, this means it allwos type correctness checks during compilation. TypeScript is essentially JavaScript with extra features.
