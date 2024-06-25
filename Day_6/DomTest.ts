@@ -1,3 +1,18 @@
+let slayText =[
+    "SLAY",
+    "QUEEN",
+    "NICE",
+    "PAPATASTISCH",
+    "MITTWOCH"
+]
+let slayColor = [
+    "red",
+    "pink",
+    "cyan",
+    "ForestGreen",
+    "yellow"
+]
+
 let spanElement: HTMLSpanElement = document.querySelector("span#idHello")!;
 spanElement.textContent = 'World'
 
@@ -12,7 +27,16 @@ do {
     i++;
     console.log(i);
     let newSpan: HTMLSpanElement= document.createElement("span");
-newSpan.textContent = "Hello"
+newSpan.textContent = slayText [Math.floor(Math.random()*5)]
 document.body.appendChild(newSpan);
 
-} while(i < 10)
+newSpan.style.color = slayColor[Math.floor(Math.random()*5)];
+newSpan.style.backgroundColor = slayColor[Math.floor(Math.random()*5)];
+newSpan.style.fontSize = Math.random() * 50 + "pt";
+newSpan.style.position = "absolute";
+//newSpan.style.top = Math.random () * window.innerHeight + "px";
+//newSpan.style.left = Math.random() * windwo:innerwidth + "px";
+newSpan.style.top = Math.random() * 90 + "%";
+newSpan.style.left = Math.random() * 85 + "%";
+
+} while(i < 200)
