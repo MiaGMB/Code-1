@@ -9,8 +9,11 @@ let slayColor = [
     "red",
     "pink",
     "cyan",
-    "ForestGreen",
-    "yellow"
+    "blue",
+    "yellow",
+    "orange",
+    "green",
+    "purple"
 ]
 
 /*let spanElement: HTMLSpanElement = document.querySelector("span#idHello")!;
@@ -30,8 +33,8 @@ do {
 newSpan.textContent = slayText [Math.floor(Math.random()*5)]
 document.body.appendChild(newSpan);
 
-newSpan.style.color = slayColor[Math.floor(Math.random()*5)];
-newSpan.style.backgroundColor = slayColor[Math.floor(Math.random()*5)];
+newSpan.style.color = slayColor[Math.floor(Math.random()*8)];
+newSpan.style.backgroundColor = slayColor[Math.floor(Math.random()*8)];
 newSpan.style.fontSize = Math.random() * 50 + "pt";
 newSpan.style.position = "absolute";
 
