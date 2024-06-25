@@ -1,0 +1,1 @@
+Today we learnd somethings about arrays.
