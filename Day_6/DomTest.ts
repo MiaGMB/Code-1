@@ -13,14 +13,14 @@ let slayColor = [
     "yellow"
 ]
 
-let spanElement: HTMLSpanElement = document.querySelector("span#idHello")!;
+/*let spanElement: HTMLSpanElement = document.querySelector("span#idHello")!;
 spanElement.textContent = 'World'
 
 let newSpan: HTMLSpanElement= document.createElement("span");
 newSpan.textContent = "Hello"
 document.body.appendChild(newSpan);
 
-console.log(newSpan);
+console.log(newSpan)*/
 
 let i:number = 0
 do {
@@ -34,8 +34,7 @@ newSpan.style.color = slayColor[Math.floor(Math.random()*5)];
 newSpan.style.backgroundColor = slayColor[Math.floor(Math.random()*5)];
 newSpan.style.fontSize = Math.random() * 50 + "pt";
 newSpan.style.position = "absolute";
-//newSpan.style.top = Math.random () * window.innerHeight + "px";
-//newSpan.style.left = Math.random() * windwo:innerwidth + "px";
+
 newSpan.style.top = Math.random() * 90 + "%";
 newSpan.style.left = Math.random() * 85 + "%";
 
