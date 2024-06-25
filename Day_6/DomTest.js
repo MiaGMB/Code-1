@@ -8,13 +8,18 @@ let slayText = [
 ];
 let slayColor = [
     "red",
-    "pink",
+    "htoPink",
     "cyan",
     "blue",
     "yellow",
     "orange",
     "green",
     "purple"
+];
+let slayfont = [
+    "cimicsans",
+    "helvetica",
+    "futura"
 ];
 /*let spanElement: HTMLSpanElement = document.querySelector("span#idHello")!;
 spanElement.textContent = 'World'
@@ -32,6 +37,7 @@ do {
     newSpan.textContent = slayText[Math.floor(Math.random() * 5)];
     document.body.appendChild(newSpan);
     newSpan.style.color = slayColor[Math.floor(Math.random() * 8)];
+    newSpan.style.font = slayfont[Math.floor(Math.random() * 3)];
     newSpan.style.fontSize = Math.random() * 50 + "pt";
     newSpan.style.position = "absolute";
     newSpan.style.top = Math.random() * 90 + "%";
