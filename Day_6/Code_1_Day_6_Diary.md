@@ -1,0 +1,1 @@
+Today we started with a lecture. The topic was .
