@@ -17,7 +17,7 @@ let slayColor = [
 ]
 
 let slayfont = [
-    "cimicsans",
+    "comicsans",
     "helvetica",
     "futura"
 ]

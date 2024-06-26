@@ -17,7 +17,7 @@ let slayColor = [
     "purple"
 ];
 let slayfont = [
-    "cimicsans",
+    "comicsans",
     "helvetica",
     "futura"
 ];
