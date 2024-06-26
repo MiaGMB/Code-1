@@ -47,4 +47,5 @@ newSpan.style.position = "absolute";
 newSpan.style.top = Math.random() * 90 + "%";
 newSpan.style.left = Math.random() * 85 + "%";
 
-} while(i < 200)
+} while(i < 200);
+
