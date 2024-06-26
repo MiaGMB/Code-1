@@ -8,7 +8,7 @@ let slayText = [
 ];
 let slayColor = [
     "red",
-    "htoPink",
+    "hotPink",
     "cyan",
     "blue",
     "yellow",
