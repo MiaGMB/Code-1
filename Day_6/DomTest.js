@@ -43,3 +43,12 @@ do {
     newSpan.style.top = Math.random() * 90 + "%";
     newSpan.style.left = Math.random() * 85 + "%";
 } while (i < 200);
+document.body.addEventListener("click", hndClick);
+function hndClick(_event) {
+    console.log(_event.currentTarget);
+    let target = _event.target;
+    if (target == document.body)
+        return;
+    target.textContent = "DESTROYED";
+    target.style.backgroundColor = "black";
+}
