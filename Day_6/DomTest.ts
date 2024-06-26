@@ -57,5 +57,6 @@ function hndClick(_event: Event): void{
     if (target == document.body)
         return;
     target.textContent = "DESTROYED"
+    target.style.color = "white"
     target.style.backgroundColor = "black";
 }
