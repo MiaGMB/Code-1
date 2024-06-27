@@ -1,0 +1,1 @@
+Day we first takled about and loocked over the connect 4 diagrams we createt yesterday.
