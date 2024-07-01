@@ -17,10 +17,12 @@ let AppleTree = {
     habitat: "cultivated worldwide",
     extinct: false,
 };
+let treelist = [Weißtanne, bamboo, AppleTree];
 let canvas = document.querySelector("canvas");
 let crc2 = canvas.getContext("2d");
 crc2.fillStyle = "brown";
 crc2.fillRect(50, 450, 10, 20);
+treelist[0].hight;
 crc2.beginPath();
 crc2.moveTo(55, 250);
 crc2.lineTo(5, 450);
