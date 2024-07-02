@@ -13,11 +13,18 @@ function drawCloud(cloud) {
     crc2.fill();
     crc2.closePath();
 }
-let cloudDefinitions = [{ xPos: 100, yPos: 100 }, { xPos: 250, yPos: 150 }, { xPos: 400, yPos: 90 }, { xPos: 750, yPos: 130 }];
+let cloudDefinitions = [];
+createClouds();
 function drawClouds(clouds) {
     clouds.forEach(cloud => {
         drawCloud(cloud);
     });
+}
+function createClouds() {
+    for (let i = 0; i < 5; i = i + 1) {
+        let cloud = { xPos: Math.random() * canvas.width, yPos: Math.random() * 150 };
+        cloudDefinitions.push(cloud);
+    }
 }
 //Beach/Sand
 crc2.fillStyle = "yellow";

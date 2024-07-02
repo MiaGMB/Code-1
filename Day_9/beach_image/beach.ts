@@ -22,11 +22,19 @@ function drawCloud(cloud: cloud) {
     crc2.closePath()
 }
 
-let cloudDefinitions: cloud[] = [{ xPos: 100, yPos: 100 },{ xPos: 250, yPos: 150 },{ xPos: 400, yPos: 90 },{ xPos: 750, yPos: 130 }]
-function drawClouds(clouds: cloud[]): void{
+let cloudDefinitions: cloud[] = []
+createClouds()
+function drawClouds(clouds: cloud[]): void {
     clouds.forEach(cloud => {
         drawCloud(cloud)
     });
+}
+
+function createClouds() {
+    for (let i: number = 0; i < 5; i = i + 1) {
+        let cloud: cloud = { xPos: Math.random() * canvas.width, yPos: Math.random() * 150 };
+        cloudDefinitions.push(cloud)
+    }
 }
 
 //Beach/Sand
@@ -72,10 +80,10 @@ crc2.lineTo(500, 50);
 crc2.lineTo(590, 110);
 crc2.lineTo(580, 40);
 crc2.lineTo(620, 110);
-crc2.lineTo(690,50);
+crc2.lineTo(690, 50);
 crc2.lineTo(650, 120);
 crc2.lineTo(750, 120);
-crc2.lineTo(630,150);
+crc2.lineTo(630, 150);
 crc2.lineTo(600, 150)
 crc2.fillStyle = "green";
 crc2.fill();
