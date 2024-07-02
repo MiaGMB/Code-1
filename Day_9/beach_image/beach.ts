@@ -1,6 +1,9 @@
 let canvas: HTMLCanvasElement = document.querySelector("canvas")!;
 let crc2: CanvasRenderingContext2D = canvas.getContext("2d")!;
 
+
+
+//clouds
 interface cloud {
     xPos: number,
     yPos: number,
@@ -19,7 +22,7 @@ function drawCloud(cloud: cloud) {
     crc2.closePath()
 }
 
-let cloudDefinitions: cloud[] = [{ xPos: 100, yPos: 100 },{ xPos: 200, yPos: 150 }]
+let cloudDefinitions: cloud[] = [{ xPos: 100, yPos: 100 },{ xPos: 250, yPos: 150 },{ xPos: 400, yPos: 90 },{ xPos: 750, yPos: 130 }]
 function drawClouds(clouds: cloud[]): void{
     clouds.forEach(cloud => {
         drawCloud(cloud)
@@ -53,6 +56,27 @@ crc2.closePath();
 let i: number = 0
 let c: number = 500
 
-// Palm
+
 
 drawClouds(cloudDefinitions)
+
+//palm
+crc2.fillStyle = "brown";
+crc2.fillRect(600, 450, 30, -300);
+
+crc2.beginPath();
+crc2.moveTo(600, 150);
+crc2.lineTo(450, 130);
+crc2.lineTo(560, 120);
+crc2.lineTo(500, 50);
+crc2.lineTo(590, 110);
+crc2.lineTo(580, 40);
+crc2.lineTo(620, 110);
+crc2.lineTo(690,50);
+crc2.lineTo(640, 120);
+crc2.lineTo(750, 120);
+crc2.lineTo(630,150);
+crc2.lineTo(600, 150)
+crc2.fillStyle = "green";
+crc2.fill();
+crc2.closePath();
