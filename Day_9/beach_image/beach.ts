@@ -73,7 +73,7 @@ crc2.lineTo(590, 110);
 crc2.lineTo(580, 40);
 crc2.lineTo(620, 110);
 crc2.lineTo(690,50);
-crc2.lineTo(640, 120);
+crc2.lineTo(650, 120);
 crc2.lineTo(750, 120);
 crc2.lineTo(630,150);
 crc2.lineTo(600, 150)
