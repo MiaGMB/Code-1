@@ -66,9 +66,10 @@ let c: number = 500
 
 
 
-drawClouds(cloudDefinitions)
+
 
 //palm
+function palm() {
 crc2.fillStyle = "brown";
 crc2.fillRect(600, 450, 30, -300);
 
@@ -88,3 +89,23 @@ crc2.lineTo(600, 150)
 crc2.fillStyle = "green";
 crc2.fill();
 crc2.closePath();
+}
+
+let imgData: ImageData = crc2.getImageData(0,0,canvas.width, 250)
+
+const speed: number = 0.5;
+function updatecloud(){
+    for( let i: number = 0; i < cloudDefinitions.length; i++){
+        cloudDefinitions[i].xPos += speed;
+    }
+}
+
+function animationFrame() {
+    crc2.clearRect(0, 0, canvas.width, 250);
+    crc2.putImageData(imgData, 0, 0);
+    updatecloud();
+    drawClouds(cloudDefinitions);
+    palm()
+    requestAnimationFrame(animationFrame)
+}
+requestAnimationFrame(animationFrame)

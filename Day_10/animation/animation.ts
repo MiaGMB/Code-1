@@ -41,6 +41,7 @@ const speed: number = 1;
 function updateBirds(){
     for (let i: number = 0; i < birds.length; i++){
         birds[i].x += speed;
+        
     }       
 }
 
