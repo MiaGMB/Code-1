@@ -1,0 +1,1 @@
+Today we didn't learn anithing new becaus the Werkschau of tock place

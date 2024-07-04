@@ -10,7 +10,7 @@ interface cloud {
 }
 
 let c1: cloud = { xPos: 100, yPos: 100 }
-function drawCloud(cloud: cloud) {
+function drawCloud(cloud: cloud): void {
     crc2.beginPath();
     crc2.ellipse(30 + cloud.xPos, 40 + cloud.yPos, 30, 30, Math.PI, Math.PI * 180, Math.PI * 90);
     crc2.ellipse(10 + cloud.xPos, 0 + cloud.yPos, 30, 30, Math.PI, Math.PI * 180, Math.PI * 90);
